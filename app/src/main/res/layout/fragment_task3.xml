@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#E8F5E9">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/inputRcNormal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Rс (Активний опір, нормальний режим, Ом)"
+            android:inputType="numberDecimal"
+            android:backgroundTint="#2E7D32" />
+
+        <EditText
+            android:id="@+id/inputXtNormal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Xt (Реактивний опір, нормальний режим, Ом)"
+            android:inputType="numberDecimal"
+            android:backgroundTint="#2E7D32" />
+
+        <EditText
+            android:id="@+id/inputRcMinimal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Rс (Активний опір, мінімальний режим, Ом)"
+            android:inputType="numberDecimal"
+            android:backgroundTint="#2E7D32" />
+
+        <EditText
+            android:id="@+id/inputXtMinimal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Xt (Реактивний опір, мінімальний режим, Ом)"
+            android:inputType="numberDecimal"
+            android:backgroundTint="#2E7D32" />
+
+        <EditText
+            android:id="@+id/inputUnom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Uном (Номінальна напруга, кВ)"
+            android:inputType="numberDecimal"
+            android:backgroundTint="#2E7D32" />
+
+        <Button
+            android:id="@+id/calculateButton3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Розрахувати"
+            android:backgroundTint="#4CAF50"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/resultsTextView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Результати відобразяться тут"
+            android:textSize="16sp"
+            android:textColor="#1B5E20" />
+    </LinearLayout>
+</ScrollView>
